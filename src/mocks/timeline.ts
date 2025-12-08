@@ -1,0 +1,43 @@
+
+export const timelineData = [
+  {
+    id: 1,
+    date: '2025',
+    title: 'Formation Développement Java',
+    company: 'Kfokam48',
+    description: 'Apprentissage du dévekoppement backend avec Java, Spring Boot et Bases de Données relationnelles. Création d\'applications full-stack combinant Java et React.',
+    tags: ['Java', 'Spring Boot', 'MySQL', 'PostgreSQL'],
+    icon: 'ri-code-s-slash-line',
+    side: 'right',
+  },
+  {
+    id: 2,
+    date: '2024 - 2025',
+    title: 'Formations Gestion de Projet',
+    company: 'Programmes de formation continue',
+    description: 'Acquisition de compétences en gestion de projet agile, analyse métier (BA) et assurance qualité (QA). Apprentissage des méthodologies Scrum et des techniques de tests logiciels.',
+    tags: ['Agile', 'Scrum', 'BA', 'QA'],
+    icon: 'ri-task-line',
+    side: 'left',
+  },
+  {
+    id: 3,
+    date: '2024',
+    title:  'Formation Développement Frontend',
+    company: 'Kfokam48',
+    description: 'Formation intensive en développement web moderne avec React.js, Tailwind CSS et JavaScript. Apprentissage des meilleures pratiques de développement frontend et création de projets concrets.',
+    tags: ['React', 'Tailwind', 'JavaScript', 'Git'],
+    icon: 'ri-graduation-cap-line',
+    side: 'right',
+  },
+  {
+    id: 4,
+    date: '2022 - 2023',
+    title: 'Design UX/UI',
+    company: 'Projets personnels',
+    description: 'Développement de compétences en design d\'interfaces avec Figma et Canva. Création de maquettes et prototypes pour divers projets web et mobile.',
+    tags: ['Figma', 'Canva', 'UI/UX', 'Prototypage'],
+    icon: 'ri-pencil-ruler-2-line',
+    side: 'left',
+  },
+];

@@ -1,0 +1,66 @@
+
+export const projectsData = [
+  {
+    id: 1,
+    title: 'Portfolio Personnel',
+    description: 'Portfolio moderne et responsive développé avec Tailwind CSS et JavaScript',
+    image: 'https://readdy.ai/api/search-image?query=modern%20minimalist%20portfolio%20website%20interface%20with%20clean%20design%2C%20professional%20layout%2C%20blue%20gradient%20accents%2C%20simple%20white%20background%20showcasing%20web%20development%20projects&width=800&height=600&seq=portfolio-1&orientation=landscape',
+    tags: ['React', 'Tailwind', 'Framer Motion'],
+    category: 'frontend',
+    github: 'https://github.com/morgankongbeto/portfolio_tailwind.git',
+    demo: 'https://morgan-kongbeto.com',
+    featured: true,
+  },
+  {
+    id: 2,
+    title: 'Application E-Commerce Full-Stack',
+    description: 'Plateforme e-commerce complète avec backend Java Spring Boot et frontend React',
+    image: 'https://readdy.ai/api/search-image?query=modern%20e-commerce%20web%20application%20interface%20with%20product%20cards%2C%20shopping%20cart%2C%20clean%20minimalist%20design%2C%20blue%20and%20white%20color%20scheme%2C%20simple%20background&width=800&height=500&seq=ecommerce-1&orientation=landscape',
+    tags: ['React', 'Java', 'Spring Boot', 'PostgreSQL'],
+    category: 'fullstack',
+    github: 'https://github.com/morgan-kongbeto/ecommerce-app',
+  },
+  {
+    id: 3,
+    title: 'Dashboard Analytics',
+    description: 'Interface de visualisation de données avec graphiques interactifs et design moderne',
+    image: 'https://readdy.ai/api/search-image?query=analytics%20dashboard%20interface%20with%20charts%20and%20graphs%2C%20modern%20data%20visualization%2C%20clean%20blue%20gradient%20design%2C%20minimalist%20white%20background%2C%20professional%20business%20interface&width=800&height=600&seq=dashboard-1&orientation=landscape',
+    tags: ['React', 'Tailwind', 'Chart.js'],
+    category: 'frontend',
+    github: 'https://github.com/morgan-kongbeto/analytics-dashboard',
+  },
+  {
+    id: 4,
+    title: 'Système de Gestion RH',
+    description: 'Application de gestion des ressources humaines avec spécifications BA complètes',
+    image: 'https://readdy.ai/api/search-image?query=human%20resources%20management%20system%20interface%2C%20employee%20database%2C%20clean%20professional%20design%2C%20blue%20accents%2C%20simple%20white%20background%2C%20business%20application&width=800&height=500&seq=hr-system-1&orientation=landscape',
+    tags: ['React', 'Java', 'MySQL', 'BA Specs'],
+    category: 'fullstack',
+    github: 'https://github.com/morgan-kongbeto/hr-management',
+  },
+  {
+    id: 5,
+    title: 'Design System UI/UX',
+    description: 'Bibliothèque de composants réutilisables conçue avec Figma et implémentée en React',
+    image: 'https://readdy.ai/api/search-image?query=ui%20design%20system%20components%20library%2C%20modern%20interface%20elements%2C%20buttons%20cards%20forms%2C%20clean%20minimalist%20style%2C%20blue%20gradient%20accents%2C%20simple%20white%20background&width=800&height=600&seq=design-system-1&orientation=landscape',
+    tags: ['Figma', 'React', 'Tailwind', 'Storybook'],
+    category: 'design',
+    github: 'https://github.com/morgan-kongbeto/design-system',
+  },
+  {
+    id: 6,
+    title: 'Plateforme de Réservation',
+    description: 'Application de réservation en ligne avec tests QA complets et documentation',
+    image: 'https://readdy.ai/api/search-image?query=booking%20reservation%20platform%20interface%2C%20calendar%20scheduling%20system%2C%20modern%20clean%20design%2C%20blue%20and%20white%20colors%2C%20simple%20background%2C%20professional%20web%20application&width=800&height=500&seq=booking-1&orientation=landscape',
+    tags: ['React', 'Java', 'PostgreSQL', 'QA Tests'],
+    category: 'fullstack',
+    github: 'https://github.com/morgan-kongbeto/booking-platform',
+  },
+];
+
+export const categories = [
+  { id: 'all', label: 'Tous' },
+  { id: 'fullstack', label: 'Full-Stack' },
+  { id: 'frontend', label: 'Frontend' },
+  { id: 'design', label: 'UX/UI' },
+];
