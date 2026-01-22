@@ -15,7 +15,7 @@ export const Footer = () => {
               <span className="font-display text-2xl font-bold">Morgan Kongbeto</span>
             </div>
             <p className="text-white/80 text-sm">
-              Développeur Frontend Junior passionné par la création d'expériences web exceptionnelles.
+              Développeur Frontend passionné par la création d'expériences web exceptionnelles.
             </p>
           </div>
 
@@ -84,14 +84,6 @@ export const Footer = () => {
 
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/70">
           <p>&copy; {currentYear} Morgan Kongbeto. Tous droits réservés.</p>
-          <a 
-            href="https://readdy.ai/?origin=logo" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:text-white transition-colors duration-300 cursor-pointer"
-          >
-            Powered by Readdy
-          </a>
         </div>
       </div>
     </footer>

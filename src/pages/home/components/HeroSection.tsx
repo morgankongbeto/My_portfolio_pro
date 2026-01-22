@@ -92,7 +92,7 @@ export const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="font-display text-6xl md:text-7xl font-black text-white mb-6 leading-tight"
             >
-              Morgan Kongbeto
+              Morgan KONGBETO
             </motion.h1>
 
             <motion.div
@@ -102,7 +102,7 @@ export const HeroSection = () => {
               className="mb-8"
             >
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-200 mb-2">
-                Développeur Frontend Junior
+                Développeur Frontend
               </h2>
               <div className="h-12 flex items-center justify-center md:justify-start">
                 <span className="text-xl md:text-2xl font-medium bg-gradient-to-r from-blue-400 to-gray-400 bg-clip-text text-transparent">

@@ -42,8 +42,8 @@ export const Header = () => {
   return (
     <>
       <motion.header
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
+        initial={{ x: -1500 }}
+        animate={{ x: 0 }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled 
             ? 'bg-white/95 dark:bg-dark-900/95 backdrop-blur-md shadow-md' 
@@ -61,8 +61,8 @@ export const Header = () => {
               <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-600 to-gray-600 flex items-center justify-center text-white font-bold text-base shadow-lg">
                 MK
               </div>
-              <span className="font-bold text-lg text-gray-900 dark:text-white hidden sm:block">
-                Morgan Kongbeto
+              <span className="font-bold text-lg text-gray-100 dark:text-white hidden sm:block">
+                Morgan KGT
               </span>
             </motion.div>
 
