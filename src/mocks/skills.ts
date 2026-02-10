@@ -2,7 +2,7 @@ export const skillsData = {
   frontend: [
     {
       name: 'React',
-      level: 40,
+      level: 65,
       icon: 'ri-reactjs-line',
       color: 'from-blue-500 via-blue-600 to-blue-700',
     },
@@ -14,7 +14,7 @@ export const skillsData = {
     },
     {
       name: 'JavaScript',
-      level: 60,
+      level: 65,
       icon: 'ri-javascript-line',
       color: 'from-amber-500 via-yellow-600 to-orange-600',
     },
