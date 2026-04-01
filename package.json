@@ -41,6 +41,9 @@
     "preview": "vite preview",
     "type-check": "tsc --noEmit --project tsconfig.app.json"
   },
+  "scripts": {
+  "build": "..."
+},
   "type": "module",
   "version": "0.0.0"
 }
